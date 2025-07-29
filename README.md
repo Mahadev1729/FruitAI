@@ -6,7 +6,7 @@ This is a simple and interactive web application that classifies fruits and vege
 
 ## 🎥 Demo Video
 
-▶️ [Watch Demo Video](https://drive.google.com/file/d/1yPMLwiikY3m8PHza4dgmISDG9PhcK76e/view?usp=sharing)
+▶ [Watch Demo Video](https://drive.google.com/file/d/1yPMLwiikY3m8PHza4dgmISDG9PhcK76e/view?usp=sharing)
 
 ## 🚀 Features
 
@@ -15,19 +15,19 @@ This is a simple and interactive web application that classifies fruits and vege
 - Fetches and displays the calorie information of the predicted item.
 - User-friendly interface accessible via any web browser.
 
-## 🛠️ Tools & Libraries Used
+## 🛠 Tools & Libraries Used
 
 | Tool / Library         | Purpose                                                |
 |------------------------|--------------------------------------------------------|
-| **Keras**              | Used for building and training the deep learning model |
-| **Pillow**             | For image preprocessing                                |
-| **Streamlit**          | Web app development framework                          |
-| **BeautifulSoup** + `requests` | Web scraping for calorie data                         |
-| **NumPy**              | Image matrix operations                                |
+| *Keras*              | Used for building and training the deep learning model |
+| *Pillow*             | For image preprocessing                                |
+| *Streamlit*          | Web app development framework                          |
+| *BeautifulSoup* + requests | Web scraping for calorie data                         |
+| *NumPy*              | Image matrix operations                                |
 
 ## 🧠 Model Architecture
 
-The application uses **MobileNetV2**, a lightweight deep learning architecture optimized for mobile devices.
+The application uses *MobileNetV2*, a lightweight deep learning architecture optimized for mobile devices.
 
 ### MobileNetV2 Highlights:
 - Uses inverted residual structures
@@ -36,9 +36,9 @@ The application uses **MobileNetV2**, a lightweight deep learning architecture o
 
 ## 📂 Dataset
 
-- **Source**: [Fruit and Vegetable Image Recognition Dataset on Kaggle](https://www.kaggle.com/kritikseth/fruit-and-vegetable-image-recognition)
-- **Classes**: 36 categories of fruits and vegetables
-- **Images**: ~3600+ training images (100 per class)
+- *Source*: [Fruit and Vegetable Image Recognition Dataset on Kaggle](https://www.kaggle.com/kritikseth/fruit-and-vegetable-image-recognition)
+- *Classes*: 36 categories of fruits and vegetables
+- *Images*: ~3600+ training images (100 per class)
 
 ## 🔁 Workflow
 
@@ -49,7 +49,7 @@ The application uses **MobileNetV2**, a lightweight deep learning architecture o
 5. Calories for the predicted item are fetched using web scraping.
 6. Both the predicted name and calorie count are shown on the web interface.
 
-## 🖼️ Output
+## 🖼 Output
 
 The app displays:
 - Uploaded image
@@ -59,7 +59,3 @@ The app displays:
 ## ✅ Conclusion
 
 This project demonstrates how deep learning can be integrated into real-world applications that are accessible to everyday users through a browser. It showcases the use of image classification and dynamic data fetching using Python libraries.
-
-
-
-
