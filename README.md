@@ -22,7 +22,7 @@ This is a simple and interactive web application that classifies fruits and vege
 | *Keras*              | Used for building and training the deep learning model |
 | *Pillow*             | For image preprocessing                                |
 | *Streamlit*          | Web app development framework                          |
-| *BeautifulSoup* + requests | Web scraping for calorie data                         |
+| *BeautifulSoup* + requests | Web scraping for calorie data                  |
 | *NumPy*              | Image matrix operations                                |
 
 ## 🧠 Model Architecture
